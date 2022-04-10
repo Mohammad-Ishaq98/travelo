@@ -1,0 +1,36 @@
+@use 'var-styles';
+.customer{
+  padding: 83.3px 0;
+  & h2{
+    font-size: 40px;
+    margin-bottom: 72px;
+  }
+  .customer_wrapper{
+    padding: 35px;
+    box-shadow: 3px 4px 10px 10px #eadfdf33;
+    .customer_box_top{
+      i{
+        color: #D2DDF5;
+        font-size: 24px;
+        margin-right: 24px;
+      }
+      .customer_txt{
+  
+      }
+    }
+    .customer_details{
+      margin-left: 48px;
+      img{
+  
+      }
+      .name_and_desig{
+        p{
+  
+        }
+        span{
+          
+        }
+      }
+    }
+  }
+}

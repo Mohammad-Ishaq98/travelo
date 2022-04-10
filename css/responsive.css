@@ -1,0 +1,130 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+  header .nav_item nav ul li a {
+    padding: 20px 27px 14px 0;
+    font-size: 18px;
+  }
+  .hero .book_box .tour_box label {
+    font-size: 16px;
+  }
+  .destination {
+    padding: 46px 0;
+  }
+  .blog {
+    padding: 46px 0;
+  }
+  
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  .menu_toggle_btn{
+    display: block;
+  }
+  .header_btn {
+    position: relative;
+    right: 50%;
+  }
+  .hero .hero_header h1 {
+    font-size: 30px;
+  }
+  .hero .hero_header p {
+    font-size: 16px;
+  }
+  .hero .book_box .tour_box label {
+    font-size: 14px;
+  }
+  .hero .book_box .tour_box:not(:last-child) {
+    margin-right: 10px;
+  }
+  .hero .book_box .tour_box:nth-child(2) {
+    margin: 0px 0px 0px 6px;
+  }
+  .hero .book_box .tour_box label {
+    font-size: 14px;
+  }
+  .four_item {
+    padding: 30px 0;
+  }
+  .destination h3 {
+    font-size: 16px;
+  }
+  .destination .filter-button-group button {
+    font-size: 15px;
+  }
+  .destination h4 {
+    font-size: 18px;
+  }
+  .travel_items img {
+    width: 25px;
+  }
+  .destination .filter-button-group .active {
+    padding-bottom: 10px;
+  }
+  .destination {
+    padding: 26px 0;
+  }
+  .blog {
+    padding: 26px 0;
+  }
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+  .header_btn {
+    position: relative;
+    left: -422%;
+  }
+  .sidebar__area {
+    width: 305px;
+  }
+  .menu_toggle_btn{
+    display: block;
+  }
+  .hero .hero_header h1 {
+    font-size: 30px;
+  }
+  .hero .hero_header p {
+    font-size: 16px;
+  }
+  .hero .book_box .tour_box label {
+    font-size: 14px;
+  }
+  .hero .book_box .tour_box:not(:last-child) {
+    margin-right: 10px;
+  }
+  .hero .book_box .tour_box input {
+    font-size: 7px;
+  }
+  .hero .book_box .tour_box:nth-child(2) {
+    margin: 0px 0px 0px 6px;
+  }
+  .hero .book_box .tour_box:last-child {
+    margin-left: 10px;
+  }
+  .hero .book_box .tour_box label {
+    font-size: 14px;
+  }
+  .hero .book_box .tour_box input {
+    display: inline-block;
+    width: 100%;
+  }
+  .footer ul li a {
+    margin-right: 10px;
+  }
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+
+}

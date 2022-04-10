@@ -1,0 +1,14 @@
+@use 'var-styles' as v;
+.destination{
+  padding: 86px 0;
+  & .filter-button-group{
+    margin: 30px 0;
+    button{
+      border: none;
+      background: transparent;
+    }
+    .active{
+      border-bottom: 3px solid #534e4e;
+    }
+  }
+}

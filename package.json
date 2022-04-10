@@ -1,0 +1,17 @@
+{
+  "name": "pack-html---copy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "sass --watch sass/main.scss:css/main.css --style compressed"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-install": "^1.1.0",
+    "jquery-datetimepicker": "^2.5.21",
+    "sass": "^1.49.9"
+  }
+}

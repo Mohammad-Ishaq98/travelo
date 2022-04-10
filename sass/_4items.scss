@@ -1,0 +1,27 @@
+@use 'var-styles' as v;
+.four_item{
+  padding: 70px 0;
+  background: #FEFEFE;
+  & .single_four_item{
+    color: #fff;
+    padding: 26px 26px;
+    border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  box-shadow: 2px 1px 8px 0px #70707030;
+    & img{
+      margin-bottom: 11px;
+      & h4{
+        font-size: 24px;
+        color: #0F0F0F;
+        margin-bottom: 23px;
+      }
+      & p{
+        font-size: 20px;
+        color: #0F0F0F;
+      }
+    }
+  }
+}

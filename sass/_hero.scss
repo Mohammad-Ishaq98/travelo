@@ -1,0 +1,46 @@
+@use 'var-styles' as v;
+.hero{
+  padding: 84px 0;
+  background: center/cover;
+  & .hero_header{
+    & h1{
+      font-size: 50px;
+      color: #fff;
+      font-weight: v.$tem-main-bold;
+      line-height: 1.3;
+      margin-bottom: 30px;
+    }
+    & p{
+      font-size: 22px;
+      color: #fff;
+      margin-bottom: 40px;
+    }
+  }
+  & .book_box{
+    padding: 17px 24px;
+    background: linear-gradient(to right,rgb(255, 255, 255),rgb(255, 255, 255),rgb(255, 255, 255),rgb(255, 255, 255), rgba(255, 255, 255, 0.337) );
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    .tour_box{
+      &:nth-child(2){
+        margin: 0px 0px 0px 26px;
+      }
+      &:not(:last-child){
+        border-right: 1px solid #B4C6EE;
+        margin-right: 50px;
+      }
+      label{
+        font-size: 20px;
+        color: #000;
+        font-weight: v.$tem-semi-bold;
+      }
+      input{
+        border: none;
+        background: transparent;
+      }
+    }
+  }
+}
