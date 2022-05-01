@@ -128,3 +128,28 @@
 .container {width:450px}
 
 }
+@media only screen and (min-width: 280px) and (max-width: 479px) {
+  .hero .book_box .tour_box label {
+    font-size: 12px;
+  }
+  .menu_toggle_btn {
+    top: 4px;
+  }
+  header .header_btn button {
+    padding: 9px 8px;
+    font-size: 13px;
+  }
+  .hero .book_box .tour_box input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 12px;
+  }
+  .hero .book_box .tour_box input::-moz-placeholder { /* Firefox 19+ */
+    font-size: 12px;
+  }
+  .hero .book_box .tour_box input:-ms-input-placeholder { /* IE 10+ */
+    font-size: 12px;
+  }
+  .hero .book_box .tour_box input:-moz-placeholder { /* Firefox 18- */
+    font-size: 12px;
+  }
+  
+}
